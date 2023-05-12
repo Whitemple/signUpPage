@@ -29,30 +29,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.container__form{
-    width: 335px;
-    display: grid;
-    justify-items: center;
-    gap: 10px;
-    border: 5px solid #fff300;
-    padding: 10px;
-    border-radius: 20px;
-}
-.container__languages{
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.container__input{
-    width: 220px;
-    height: 30px;
-    border: none;
-    border-bottom: 1px solid #000;
-    background-color: inherit;
-    outline:none;
-    padding-left: 10px;
-    cursor: pointer;
+    &__form{
+        width: 335px;
+        display: grid;
+        justify-items: center;
+        gap: 10px;
+        border: 5px solid #fff300;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    &__languages{
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__input{
+        width: 220px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid #000;
+        background-color: inherit;
+        outline:none;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    &__titleH1{
+        font-size: 24px;
+    }
+    &__box{
+        width: 280px;
+        display: flex;
+    }
+    &__titles{
+        margin-right: 20px;
+    }
+    &__p{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
 #submitBtn{
     width: 200px;
@@ -75,19 +91,3 @@ input:-webkit-autofill {
                         inset 0 0 0 50px #ffffff, /* Цвет фона */
                         0 1px rgba(255, 255, 255, 0.06) !important; /* Наружная тень */
     -webkit-text-fill-color: rgb(0, 0, 0) !important;}
-.container__titleH1{
-    font-size: 24px;
-}
-.container__box{
-    width: 280px;
-    display: flex;
-}
-.container__box>.container__titles{
-    margin-right: 20px;
-}
-.container__p{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
